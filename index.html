@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animasi Kucing Berjalan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scene">
+        <div class="sun">
+            <div class="sun-ray"></div>
+            <div class="sun-ray"></div>
+            <div class="sun-ray"></div>
+            <div class="sun-ray"></div>
+            <div class="sun-ray"></div>
+            <div class="sun-ray"></div>
+            <div class="sun-ray"></div>
+            <div class="sun-ray"></div>
+        </div>
+
+        <div class="clouds">
+            <div class="cloud cloud1"></div>
+            <div class="cloud cloud2"></div>
+        </div>
+
+        <div class="cat-container">
+            <div class="cat">
+                <div class="cat-tail"></div>
+                <div class="cat-body"></div>
+                <div class="cat-head">
+                    <div class="cat-ear left"></div>
+                    <div class="cat-ear right"></div>
+                    <div class="cat-eye left"></div>
+                    <div class="cat-eye right"></div>
+                    <div class="cat-nose"></div>
+                </div>
+                <div class="cat-leg front-left">
+                    <div class="paw"></div>
+                </div>
+                <div class="cat-leg front-right">
+                    <div class="paw"></div>
+                </div>
+                <div class="cat-leg back-left">
+                    <div class="paw"></div>
+                </div>
+                <div class="cat-leg back-right">
+                    <div class="paw"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grass"></div>
+        <div class="ground"></div>
+
+        <div class="controls">
+            <button class="control-btn" onclick="toggleAnimation()">⏸️ Pause/Play</button>
+            <button class="control-btn" onclick="changeSpeed()">🚀 Speed</button>
+        </div>
+
+        <div class="info">
+            <h3>🐱 Animasi Kucing</h3>
+            <p>Kucing lucu sedang berjalan santai melintasi layar dengan gerakan kaki yang realistis, ekor yang bergoyang, dan mata yang berkedip 🐈</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
